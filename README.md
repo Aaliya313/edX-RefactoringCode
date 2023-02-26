@@ -29,14 +29,18 @@ What it means to implement semantic structure in HTML and CSS and how to make th
 
 ### What makes the project stand out?
 A summary of what I added to make the code more accessible:
+
 **HTML:**
+
 + Added semantic HTML element tags throughout the code
 + HTML follows in a logical sturcture independent of the styling
 + Images have alt attributes
 + Title element tag was made to be more descriptive
 + Heading attributes fall in sequential order
 + Commented throughout the code
+
 **CSS:**
+
 + Grouped repetitive code together
 + Created descriptive div classes to reference in the CSS to make the code more informative
 + Added comments throughout the code 
