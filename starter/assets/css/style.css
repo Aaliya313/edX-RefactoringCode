@@ -1,30 +1,36 @@
-* { /*Applies to whole page*/
+* {
+    /*Applies to whole page*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body { /*Applies to body section*/
+body {
+    /*Applies to body section*/
     background-color: #d9dcd6;
 }
 
-.header { /*Applies to header section*/
+.header {
+    /*Applies to header section*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 { /*Applies to h1 element inside of header section*/
+.header h1 {
+    /*Applies to h1 element inside of header section*/
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo { /*Applies to the class 'seo' inside of the h1 element tag inside the header section*/
+.header h1 .seo {
+    /*Applies to the class 'seo' inside of the h1 element tag inside the header section*/
     color: #d9dcd6;
 }
 
-.header .navbar { /*Instead of just div, having the class navbar inside of the header class is more informative of where this style is being implemented*/
+.header .navbar {
+    /*Instead of just div, having the class navbar inside of the header class is more informative of where this style is being implemented*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,21 +38,25 @@ body { /*Applies to body section*/
     font-size: 20px;
 }
 
-.header .navbar ul { /*unordered list being targetting in the navbar class inside of the header class*/
+.header .navbar ul {
+    /*unordered list being targetting in the navbar class inside of the header class*/
     list-style-type: none;
 }
 
-.header .navbar ul li { /*list elements in unordered list being targetting in the navbar class inside of the header class*/
+.header .navbar ul li {
+    /*list elements in unordered list being targetting in the navbar class inside of the header class*/
     display: inline-block;
     margin-left: 25px;
 }
 
-.navbar a { /*added the navbar class to make it more informative as to which a tag is being styled*/
+.navbar a {
+    /*added the navbar class to make it more informative as to which a tag is being styled*/
     color: #ffffff;
     text-decoration: none;
 }
 
-p { /*Applies to all p tag elements across each section*/
+p {
+    /*Applies to all p tag elements across each section*/
     font-size: 16px;
 }
 
@@ -54,7 +64,8 @@ p { /*Applies to all p tag elements across each section*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg"); /*Unsure on how to add an alt in here, but would if I knew how*/
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    /*Unsure on how to add an alt in here, but would if I knew how*/
     background-size: cover;
     background-position: center;
 }
@@ -86,25 +97,37 @@ p { /*Applies to all p tag elements across each section*/
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost { /*Can group together classes that have the same styles to make CSS more organised*/
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    /*Can group together classes that have the same styles to make CSS more organised*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 { /*Can group together classes that have the same styles to make CSS more organised*/
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    /*Can group together classes that have the same styles to make CSS more organised*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 
-.benefit-lead img, .benefit-brand img, .benefit-cost img { /*Can group together classes that have the same styles to make CSS more organised*/
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    /*Can group together classes that have the same styles to make CSS more organised*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing  { /*Can group together classes that have the same styles to make CSS more organised*/
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    /*Can group together classes that have the same styles to make CSS more organised*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -114,18 +137,25 @@ p { /*Applies to all p tag elements across each section*/
 }
 
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img { /*Can group together classes that have the same styles to make CSS more organised*/
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    /*Can group together classes that have the same styles to make CSS more organised*/
     max-height: 200px;
 }
 
 
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2  { /*Can group together classes that have the same styles to make CSS more organised*/
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    /*Can group together classes that have the same styles to make CSS more organised*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer { /*Referencing the footer class inserted into HTML*/
+.footer {
+    /*Referencing the footer class inserted into HTML*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
