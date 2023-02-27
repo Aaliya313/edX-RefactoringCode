@@ -49,6 +49,7 @@ A summary of what I added to make the code more accessible:
 Adding an alt attribute to the image URL found in the CSS 
 
 ### Deployed link to application
+https://aaliya313.github.io/edX-RefactoringCode/
 
 ### Screenshot of application with refactored code
  ![Screenshot of application with refactored code](/Assets/screenshot.png)
