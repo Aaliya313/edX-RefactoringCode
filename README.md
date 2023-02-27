@@ -45,9 +45,6 @@ A summary of what I added to make the code more accessible:
 + Created descriptive div classes to reference in the CSS to make the code more informative
 + Added comments throughout the code 
 
-### Challenges during the project
-N/A
-
 ### Future improvements
 Adding an alt attribute to the image URL found in the CSS 
 
